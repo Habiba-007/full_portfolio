@@ -451,6 +451,8 @@
     /* margin-top: 50px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin: 50px 0px;
 }
 
 .card_list .single_card {
