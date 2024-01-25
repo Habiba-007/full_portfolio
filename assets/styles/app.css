@@ -522,27 +522,99 @@
 
 }
 
-/* =======================work experience par csst=> =========================  */
+/* ====================== => work experience par csst=> =========================  */
 .work_experience_content {}
 
-.work_experience_content .experience_item_list {}
+.work_experience_content .experience_item_list {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.388);
+    padding: 15px 30px;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 20px;
+}
 
-.work_experience_content .experience_item_list .session {}
+.work_experience_content .experience_item_list .session {
+    /* border: var(--border); */
+    width: 200px;
+    display: grid;
+    align-content: center;
+}
 
-.work_experience_content .experience_item_list .session h3 {}
+.work_experience_content .experience_item_list .session h3 {
+    font-family: var(--poppins);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0;
+    /* border: var(--border); */
+}
 
-.work_experience_content .experience_item_list .company_logo {}
+.work_experience_content .experience_item_list .company_logo {
+    /* border: var(--border); */
+    width: 270px;
+    /* display: grid; */
+    text-align: center;
+}
 
-.work_experience_content .experience_item_list .company_logo img {}
+.work_experience_content .experience_item_list .company_logo img {
+    width: 60px;
+}
 
-.work_experience_content .experience_item_list .company_details {}
+.work_experience_content .experience_item_list .company_details {
+    /* border: var(--border); */
+    flex: 1;
+    display: grid;
+    align-content: center;
+    /* margin-top: 20px; */
+}
 
-.work_experience_content .experience_item_list .company_details h3 {}
+.work_experience_content .experience_item_list .company_details h3 {
+    text-transform: capitalize;
+    font-family: var(--poppins);
+    font-size: 20px;
+    margin: 0;
+}
 
-.work_experience_content .experience_item_list .company_adress  p {}
+.work_experience_content .experience_item_list .company_details p {
+    font-family: var(--poppins);
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 15px;
+}
 
-.work_experience_content .experience_item_list .website_link {}
+.work_experience_content .experience_item_list .website_link {
+    /* border: var(--border); */
+    width: 190px;
+    display: grid;
+    align-content: center;
+    text-align: right;
+}
 
-.work_experience_content .experience_item_list .website_link i {}
+.work_experience_content .experience_item_list .website_link a {
+    text-transform: capitalize;
+    color: black;
+    font-family: var(--poppins);
+    font-size: 13px;
+    position: relative;
+    padding-left: 20px;
+    /* border: var(--border); */
+    text-decoration: none;
 
-.work_experience_content .experience_item_list .website_link i a {}
+
+}
+
+.work_experience_content .experience_item_list .website_link a:hover{
+    color: orange;
+}
+
+.work_experience_content .experience_item_list .website_link a i {
+    position: absolute;
+    left: -10px;
+    top: 3px;
+    transition-duration: .3s;
+}
+
+.work_experience_content .experience_item_list .website_link a:hover i {
+    left: -3px;
+    /* background-color: orange; */
+    color: orange;
+}
