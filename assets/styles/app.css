@@ -445,6 +445,7 @@
     background-color: var(--brand_color);
     color: white;
 }
+
 /* => service card list => */
 .card_list {
     /* border: var(--border); */
@@ -518,7 +519,30 @@
 
 .card_list .single_card a:hover i {
     margin-right: 7px;
-    
+
 }
 
 /* =======================work experience par csst=> =========================  */
+.work_experience_content {}
+
+.work_experience_content .experience_item_list {}
+
+.work_experience_content .experience_item_list .session {}
+
+.work_experience_content .experience_item_list .session h3 {}
+
+.work_experience_content .experience_item_list .company_logo {}
+
+.work_experience_content .experience_item_list .company_logo img {}
+
+.work_experience_content .experience_item_list .company_details {}
+
+.work_experience_content .experience_item_list .company_details h3 {}
+
+.work_experience_content .experience_item_list .company_adress  p {}
+
+.work_experience_content .experience_item_list .website_link {}
+
+.work_experience_content .experience_item_list .website_link i {}
+
+.work_experience_content .experience_item_list .website_link i a {}
