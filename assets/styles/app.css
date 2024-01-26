@@ -452,7 +452,7 @@
     /* margin-top: 50px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    gap: 10px;
     margin: 50px 0px;
 }
 
@@ -530,7 +530,7 @@
     padding: 15px 30px;
     display: flex;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .work_experience_content .experience_item_list .session {
@@ -602,7 +602,7 @@
 
 }
 
-.work_experience_content .experience_item_list .website_link a:hover{
+.work_experience_content .experience_item_list .website_link a:hover {
     color: orange;
 }
 
@@ -610,7 +610,7 @@
     position: absolute;
     left: -10px;
     top: 3px;
-    transition-duration: .3s;
+    transition-duration: .5s;
 }
 
 .work_experience_content .experience_item_list .website_link a:hover i {
