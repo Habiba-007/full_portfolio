@@ -383,7 +383,7 @@
     color: var(--brand_color);
 }
 
-/* -------------------------------===============-service part css=== === == ------------ */
+/* -------------------------------===============-service part css=== === ==> ------------ */
 .common_header {
     text-align: center;
     /* border: var(--border); */
@@ -597,9 +597,7 @@
     position: relative;
     padding-left: 20px;
     /* border: var(--border); */
-    text-decoration: none;
-
-
+   text-decoration: none;
 }
 
 .work_experience_content .experience_item_list .website_link a:hover {
