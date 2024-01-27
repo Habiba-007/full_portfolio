@@ -597,7 +597,7 @@
     position: relative;
     padding-left: 20px;
     /* border: var(--border); */
-   text-decoration: none;
+    text-decoration: none;
 }
 
 .work_experience_content .experience_item_list .website_link a:hover {
