@@ -239,7 +239,7 @@
     top: 100%;
 }
 
-/* -------------seudo practice in css end(after,before) ------------------------------ */
+/* -------------==>seudo practice in css end(after,before)===============> ---------------------- */
 
 @keyframes moveing_banner_item {
     0% {
@@ -259,7 +259,7 @@
 }
 
 
-/*------->-- advantage part css-start ------------------------------------*/
+/*------->==============================> advantage part css-start ======>-----*/
 #advantage {}
 
 .advantage_content {
@@ -383,7 +383,7 @@
     color: var(--brand_color);
 }
 
-/* -------------------------------===============-service part css=== === ==> ------------ */
+/* -------------------------------==========>-service part css=== === ==> ------------ */
 .common_header {
     text-align: center;
     /* border: var(--border); */
@@ -615,5 +615,4 @@
     left: -3px;
     /* background-color: orange; */
     color: orange;
-     
 }
