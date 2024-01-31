@@ -4,7 +4,7 @@
     --brand_color: #ff4155;
 }
 
-/* --===============> Header part css-----------------------------------------------> */
+/* --============== => Header part css-----------------------------------------------> */
 .container {
     /* border: var(--border); */
     width: 992px;
@@ -239,7 +239,7 @@
     top: 100%;
 }
 
-/* -------------==>seudo practice in css end(after,before)===============> ---------------------- */
+/* -------------==>seudo practice in css end(after,before)============== => ---------------------- */
 
 @keyframes moveing_banner_item {
     0% {
